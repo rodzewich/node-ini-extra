@@ -1,0 +1,44 @@
+{
+  "name": "ini-extra",
+  "description": "An ini encoder/decoder for node",
+  "version": "0.0.1",
+  "homepage": "https://github.com/rodzewich/node-ini-extra",
+  "author": {
+    "name": "Oleg Rodzewich",
+    "url": "https://github.com/rodzewich"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rodzewich/node-ini-extra.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rodzewich/node-ini-extra/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/rodzewich/node-ini-extra/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.10.25"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "files": [
+    "bin",
+    "tasks",
+    "LICENSE"
+  ]
+}
